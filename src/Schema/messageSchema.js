@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const messageSchema = mongoose.Schema({
     message: {
         type: String,
-        require: true
+        required: true
     }
 })
 
